@@ -30,4 +30,3 @@ def get_aligned_img(matches, kp_template, kp_image, image, template):
     matrix, mask = cv2.findHomography(dest_pts, source_pts, cv2.RANSAC, 5.0)
     warped_image = cv2.warpPerspective(image, matrix, (template.shape[1], template.shape[0]))
     return warped_image
-

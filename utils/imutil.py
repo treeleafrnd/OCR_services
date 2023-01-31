@@ -1,10 +1,4 @@
-"""
--- Created by Pravesh Budhathoki
--- Treeleaf Technologies Pvt. Ltd.
--- Created on 2023-01-27
-"""
 import os
-
 import cv2
 
 
